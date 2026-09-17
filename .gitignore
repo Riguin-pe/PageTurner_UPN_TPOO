@@ -1,0 +1,13 @@
+# Archivos compilados de Java
+*.class
+
+# Salida de compilación del proyecto
+/out/
+
+# Configuración local de editores e IDEs
+/.vscode/
+/.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
