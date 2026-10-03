@@ -27,7 +27,9 @@ El proyecto no utiliza dependencias externas ni requiere Maven o Gradle.
 ```text
 PageTurner/
 ├── docs/
-│   └── diagrama-clases.md   # Diagrama UML y reglas del modelo
+│   ├── README.md             # Índice de documentación
+│   ├── diagrama-clases.md    # Modelo UML y decisiones de diseño
+│   └── flujos-negocio.md     # Secuencias y estados del dominio
 ├── src/
 │   └── pageturner/
 │       ├── Cliente.java
@@ -98,10 +100,13 @@ Ventas de hoy: 1
 - Una reserva solo puede confirmarse cuando el libro vuelve a estar disponible.
 - Los reportes consideran únicamente las ventas registradas.
 
-## Modelo de clases
+## Documentación
 
-El [diagrama UML](docs/diagrama-clases.md) describe las clases del dominio, sus
-operaciones y las relaciones entre ellas.
+- El [índice de documentación](docs/README.md) propone una ruta de lectura.
+- El [diagrama de clases](docs/diagrama-clases.md) explica la estructura, las
+  responsabilidades y las relaciones del modelo.
+- Los [flujos de negocio](docs/flujos-negocio.md) muestran cómo se registran las
+  ventas, cómo cambia una reserva y cómo se generan los reportes.
 
 ## Conceptos de POO aplicados
 
